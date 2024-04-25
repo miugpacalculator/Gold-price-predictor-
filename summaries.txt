@@ -1,0 +1,25 @@
+libraries
+numpy is used to make numpy arrays
+pandas is used to make dataframes(tables) from csv(comma separated values)
+matplotlib is useful for making plots and graphs
+seaborn is also useful for making plots
+metrics helps to find the error score and accuracy score
+
+#loading the csv data to pandas dataframe
+#print first five rows in the dataframe
+#print last 5 rows of the dataframe
+#number of rows and columns
+#getting basic information about the data ( the data types and what not)
+#checking the no. of missing values
+#getting the statistical measures of the data(mean , percentiles, max, std)
+#finding the correlation of the data(if gold price increases and spx increases, then they are 
+positively correlated
+#construct a heatmap to understand the above correlation(graphical bit of correlation)
+#print correlation values of the gold (summary of the columns that are negatively or positively correlated)
+#checking the distribution of the gold price(distribution graph)
+#splitting the features and target (the features are the stock price while the target is the gold price)
+#splitting into tranining data and test data(80% will go to x train and 20% will go to x test and the coresponding gold prices will go to y-train and corresponding gold prices for the x test will go to ytest
+#ML model training: random forest regressor
+#prediction on test data(predicting the gold prices)
+#rsquared error
+#compare the actual values and predicted values in a plot
